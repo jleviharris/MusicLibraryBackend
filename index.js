@@ -14,7 +14,6 @@ app.use(express.urlencoded({ extended: true}));
 // http://localhost:5005 (BASE URL)
 
 
-
 // GET all songs
 // http://localhost:5005/api/songs
 app.get("/api/songs", (req, res) => {
@@ -45,6 +44,19 @@ app.post("/api/songs", (req, res) => {
     const addedSong = repoContext.songs.createSong(newSong)
     return res.status(201).send(addedSong);
 });
+
+// PUT an existing song
+// http://localhost:5005/api/songs/:id
+app.put("/api/songs/:id", (req, res) => {
+    const id = parseInt(req.params.id);
+    const songsPropertiesToModify = req.body;
+    const songToUpdate = repoContext.songs.updateSong(id, songsPropertiesToModify)
+    return res.send(songToUpdate);
+})
+
+
+// DELETE a song
+// http://localhost:5005/api/songs/:id
 
 
 
