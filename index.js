@@ -21,6 +21,13 @@ app.get("/api/songs", (req, res) => {
     res.send(songs);
 });
 
+// Get song by id
+// http://localhost:5005/api/songs/:id
+app.get("/api/songs/:id", (req, res) => {
+    const id = req.params.id;
+    const song = repoContext.songs.findSongById(id);
+    return res.send(song);
+});
 
 
 // Starting Server
