@@ -52,11 +52,15 @@ app.put("/api/songs/:id", (req, res) => {
     const songsPropertiesToModify = req.body;
     const songToUpdate = repoContext.songs.updateSong(id, songsPropertiesToModify)
     return res.send(songToUpdate);
-})
-
+});
 
 // DELETE a song
 // http://localhost:5005/api/songs/:id
+app.delete("/api/songs/:id", (req, res) => {
+    const id = parseInt(req.params.id);
+    const deletedSong = repoContext.songs.deleteSong(id);
+    return res.send(deletedSong);
+});
 
 
 
