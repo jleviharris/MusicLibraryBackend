@@ -10,6 +10,10 @@ exports.findSongById = (id) => {
   return repoBase.findById(connectionString, id);
 };
 
+// exports.findSongByArtist = (artist) => {
+//   return repoBase.findSongByArtist(connectionString, artist);
+// };
+
 exports.createSong = (song) => {
   return repoBase.create(connectionString, song);
 };

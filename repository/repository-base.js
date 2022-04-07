@@ -8,6 +8,10 @@ module.exports.findAll = (dataPath) => {
 module.exports.findById = (dataPath, id) => {
     return readFileSync(dataPath)[id - 1];
 }
+
+// module.exports.findByArtist = (dataPath, artist) => {
+//   return readFileSync(dataPath) [artist];
+// }
   
 module.exports.create = (dataPath, data) => {
     let jsonData = readFileSync(dataPath);

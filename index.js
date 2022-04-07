@@ -7,6 +7,7 @@ const app = express();
 
 // Middleware
 app.use(express.json());
+app.use(express.urlencoded({ extended: true}));
 
 
 // Endpoints
@@ -28,6 +29,24 @@ app.get("/api/songs/:id", (req, res) => {
     const song = repoContext.songs.findSongById(id);
     return res.send(song);
 });
+
+// // GET song by artist
+// // http://localhost:5005/api/songs/:artist
+// app.get("/api/songs/:artist", (req, res) => {
+//     const artist = req.params.artist;
+//     const song = repoContext.songs.findSongByArtist(artist);
+//     return res.send(song);
+// });
+
+// POST new song
+// http://localhost:5005/api/songs
+app.post("/api/songs", (req, res) => {
+    const newSong = req.body;
+    const addedSong = repoContext.songs.createSong(newSong)
+    return res.send(addedSong);
+});
+
+
 
 
 // Starting Server
