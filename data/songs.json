@@ -192,11 +192,16 @@
     "releaseDate": "02/18/2003"
   },
   {
-    "id": 25
+    "id": 25,
+    "title": "Unheavenly Creatures",
+    "album": "The Unheavenly Creatures",
+    "artist": "Coheed and Cambria",
+    "genre": "Progressive Rock",
+    "releaseDate": "10/05/2018"
   },
   {
     "id": 26,
-    "title": "Unheavenly Creatures",
+    "title": "Old Flames",
     "album": "The Unheavenly Creatures",
     "artist": "Coheed and Cambria",
     "genre": "Progressive Rock",
