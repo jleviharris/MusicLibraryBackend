@@ -198,5 +198,101 @@
     "artist": "Coheed and Cambria",
     "genre": "Progressive Rock",
     "releaseDate": "10/05/2018"
+  },
+  {
+    "id": 26,
+    "title": "The Gutter",
+    "album": "The Unheavenly Creatures",
+    "artist": "Coheed and Cambria",
+    "genre": "Progressive Rock",
+    "releaseDate": "10/05/2018"
+  },
+  {
+    "id": 27,
+    "title": "Old Flames",
+    "album": "The Unheavenly Creatures",
+    "artist": "Coheed and Cambria",
+    "genre": "Progressive Rock",
+    "releaseDate": "10"
+  },
+  {
+    "id": 28,
+    "title": "Old Flames",
+    "album": "The Unheavenly Creatures",
+    "artist": "Coheed and Cambria",
+    "genre": "Progressive Rock",
+    "releaseDate": "10"
+  },
+  {
+    "id": 29,
+    "title": "Old Flames",
+    "album": "The Unheavenly Creatures",
+    "artist": "Coheed and Cambria",
+    "genre": "Progressive Rock",
+    "releaseDate": ""
+  },
+  {
+    "id": 30,
+    "title": "Old Flames",
+    "album": "The Unheavenly Creatures",
+    "artist": "Coheed and Cambria",
+    "genre": "Progressive Rock",
+    "releaseDate": "g"
+  },
+  {
+    "id": 31,
+    "title": "Old Flames",
+    "album": "The Unheavenly Creatures",
+    "artist": "Coheed and Cambria",
+    "genre": "Progressive Rock",
+    "releaseDate": "g"
+  },
+  {
+    "id": 32,
+    "title": "Old Flames",
+    "album": "The Unheavenly Creatures",
+    "artist": "Coheed and Cambria",
+    "genre": "Progressive Rock",
+    "releaseDate": "g"
+  },
+  {
+    "id": 33,
+    "title": "Old Flames",
+    "album": "The Unheavenly Creatures",
+    "artist": "Coheed and Cambria",
+    "genre": "Progressive Rock",
+    "releaseDate": "g"
+  },
+  {
+    "id": 34,
+    "title": "Old Flames",
+    "album": "The Unheavenly Creatures",
+    "artist": "Coheed and Cambria",
+    "genre": "Progressive Rock",
+    "releaseDate": 45
+  },
+  {
+    "id": 35,
+    "title": "Old Flames",
+    "album": "The Unheavenly Creatures",
+    "artist": "Coheed and Cambria",
+    "genre": "Progressive Rock",
+    "releaseDate": "45"
+  },
+  {
+    "id": 36,
+    "title": "Old Flames",
+    "album": "The Unheavenly Creatures",
+    "artist": "Coheed and Cambria",
+    "genre": "Progressive Rock",
+    "releaseDate": "45"
+  },
+  {
+    "id": 37,
+    "title": "Old Flames",
+    "album": "The Unheavenly Creatures",
+    "artist": "Coheed and Cambria",
+    "genre": "Progressive Rock",
+    "releaseDate": "45"
   }
 ]
