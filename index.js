@@ -1,5 +1,6 @@
 // Imports
 const express = require('express');
+const cors = require("cors");
 const repoContext = require("./repository/repository-wrapper");
 const songValidate = require("./middleware/song-validation");
 const songLogger = require("./middleware/song-logger");
@@ -9,6 +10,8 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true}));
+app.use(cors());
+
 
 
 // Endpoints
