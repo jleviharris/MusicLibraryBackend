@@ -73,7 +73,7 @@ app.delete("/api/songs/:id", (req, res) => {
 const PORT = process.env.PORT || 5005;
 
 app.listen(PORT, () => {
-    console.log(`Erver running on PORT: ${PORT}`);
+    console.log(`Server running on PORT: ${PORT}`);
 });
 
 
